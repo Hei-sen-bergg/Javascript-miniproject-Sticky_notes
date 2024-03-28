@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgba(78, 78, 78, 0.86);
+    font-family: Edu NSW ACT Foundation;
+    font-size: 25px;
+}
+
+.main-container{
+    width: 95%;
+    margin: auto;
+}
+
+.container1{
+    margin-top: 20px;
+    margin-left: 5%;
+   
+}
+.container2{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+.container3{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+textarea{
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+    outline: none;
+    border: none;
+    width: 275px;
+    height: 275px;
+    padding: 40px 25px 25px 25px;
+}
+
+svg{
+    color: rgb(74, 74, 74);
+}
+#check-icon{
+    position: absolute;
+    right: 17%;
+    top: 5%;
+  
+}
+#x-icon{
+    position: absolute;
+    right: 6%;
+    top: 5%;
+}
+
+#button{
+    font-weight: 600;
+    width: 10%;
+}
