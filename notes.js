@@ -24,8 +24,9 @@ function typeNote(){
 }
 
 function createNote(){                        //input text for notes
-    let element1 = document.createElement('div');
- let noteText = document.getElementById("note-text").value;  
+    
+ let noteText = document.getElementById("note-text").value; 
+ let element1 = document.createElement('div');
  let element2 = document.createElement('h1');
 
  element2.innerHTML = noteText;
